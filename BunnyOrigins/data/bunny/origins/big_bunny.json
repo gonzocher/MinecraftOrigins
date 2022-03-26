@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"bunny:health",
+		"bunny:carrot_diet",
+		"bunny:double_jump",
+		"bunny:fall_damage",
+		"bunny:speed",
+		"bunny:weakness"
+	],
+	"icon": "minecraft:carrot",
+	"order": 10,
+	"impact": 0,
+	"name": "Big Bunny",
+	"description": "Will have a double jump, less fall damage, speed 1, 7 hearts, perm weakness"
+}

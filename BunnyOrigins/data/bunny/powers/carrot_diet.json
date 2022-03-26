@@ -1,0 +1,20 @@
+{
+    "name": "Picky Eater",
+    "description": "You can only eat Carrots and Golden Carrots.",
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "inverted": true,
+        "type": "origins:ingredient",
+        "ingredient": [
+            {
+                "item": "minecraft:carrot"
+            },
+            {
+            	"item": "minecraft:golden_carrot"
+			},
+			{
+				"item": "origins:orb_of_origin"
+            }
+        ]
+    }
+}

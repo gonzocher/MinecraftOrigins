@@ -1,0 +1,47 @@
+{
+	"name": "Less Fall Damage",
+	"description": "Receive less damage on falling",
+	"type": "origins:multiple",
+	"cancel": {
+		"type": "origins:modify_damage_taken",
+		"damage_condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:name",
+					"name": "fall"
+				},
+				{
+					"type": "origins:amount",
+					"comparison": "<=",
+					"compare_to": 6
+				}
+			]
+		},
+		"modifier": {
+			"operation": "multiply_total",
+			"value": -1
+		}
+	},
+	"reduce": {
+		"type": "origins:modify_damage_taken",
+		"damage_condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:name",
+					"name": "fall"
+				},
+				{
+					"type": "origins:amount",
+					"comparison": ">",
+					"compare_to": 6
+				}
+			]
+		},
+		"modifier": {
+			"operation": "addition",
+			"value": -6
+		}
+	}
+}
