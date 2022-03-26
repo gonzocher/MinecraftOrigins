@@ -1,0 +1,19 @@
+{
+	"powers": [
+		"origins:slow_falling",
+		"beeorigin:nighttime",
+		"beeorigin:poisonous",
+		"beeorigin:bloom",
+		"beeorigin:lifespan",
+		"beeorigin:flight",
+		"beeorigin:death",
+		"beeorigin:rain",
+		"beeorigin:nofood"
+		
+	],
+	"icon": "minecraft:honeycomb",
+	"order": 7,
+	"impact": 3,
+	"name": "Bumblebee",
+	"description":"Bees are cool. They fly and enjoy flowers and die."
+}
