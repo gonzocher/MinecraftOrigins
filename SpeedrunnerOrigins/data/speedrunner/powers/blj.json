@@ -1,0 +1,21 @@
+{    
+    "name": "backwards long jump",
+    "type": "origins:action_on_callback",
+    "description": "you too can enjoy the glitches of minecraft64",
+    "entity_action_added": {
+        "type": "origins:execute_command",
+        "command": "/scale set pehkui:step_height 2",
+        "permission_level": 4
+    },
+    "entity_action_lost": {
+        "type": "origins:execute_command",
+        "command": "/scale set pehkui:step_height 2",
+        "permission_level": 4
+    },
+    "entity_action_respawn": {
+        "type": "origins:execute_command",
+        "command": "/scale set pehkui:step_height 2",
+        "permission_level": 4
+    },
+    "execute_chosen_when_orb": true
+}

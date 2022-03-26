@@ -1,0 +1,18 @@
+{
+	"powers": [
+		"speedrunner:blj",
+		"speedrunner:dash",
+		"speedrunner:hungy",
+		"speedrunner:portal",
+		"speedrunner:speedleather",
+		"speedrunner:noarmor",
+		"speedrunner:no_shield",
+		"speedrunner:grapple_hook",
+		"speedrunner:wallclimb"
+	],
+	"icon": "minecraft:sugar_cane",
+	"order": 10,
+	"impact": 0,
+	"name": "speedrunner",
+	"description": "on your journey to get the WR glitchless any% run"
+}

@@ -1,0 +1,10 @@
+{
+  "type": "origins:modify_exhaustion",
+  "modifier": {
+	"name": "Origin modifier",
+	"value": 0.33,
+	"operation": "multiply_base"
+  },
+	"name": "Fast Metabolism",
+	"description": "Due to your speed, you get hungry alot quicker."
+}
