@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"donut:health",
+		"origins:vegetarian",
+		"donut:speed",
+		"origins:slow_falling"
+	],
+	"icon": "minecraft:music_disc_otherside",
+	"order": 10,
+	"impact": 0,
+	"name": "Glazed Donut",
+	"description": "Yummy donut"
+}
