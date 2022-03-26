@@ -1,0 +1,17 @@
+{
+	"powers": [
+		"cham:cham_invis",
+		"cham:cham_size",
+		"origins:climbing",
+		"origins:fall_immunity",
+		"origins:fresh_air",
+		"origins:extra_reach",
+		"origins:carnivore",
+		"cham:cham_natarmor"
+	],
+	"icon": "minecraft:lime_dye",
+	"order": 10,
+	"impact": 1,
+	"name": "Chameleon",
+	"description": "Masters of camouflage, these reptiles are really hard to be spotted."
+}

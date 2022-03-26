@@ -1,0 +1,10 @@
+{
+	"name": "Master of Camoflauge",
+	"description": "You turn invisible when not moving, but beware, others can still see your armor",
+	"type": "origins:invisibility",
+	"render_armor": true,
+	"condition": {
+		"type": "origins:moving",
+		"inverted": true
+	}
+}
