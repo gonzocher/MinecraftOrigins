@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"penguin:health",
+		"penguin:eats_fish",
+		"origins:slow_falling",
+		"penguin:dolphins_grace",
+		"penguin:slowness",
+		"penguin:frostwalker"
+
+	],
+	"icon": "minecraft:ice",
+	"order": 10,
+	"impact": 0,
+	"name": "Waddles Penguin",
+	"description": "Waddles is a frost walker, slowfalling, dolphins grace 2 perm in water, slowness 1, nausea in nether, only eat fish, needs to be in water every 5 min if not withering"
+}

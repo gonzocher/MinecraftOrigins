@@ -1,0 +1,33 @@
+{
+	"type": "origins:multiple",
+
+	"toggle": {
+		"type": "origins:toggle",
+		"active_by_default": false,
+		"key": {
+			"key": "key.origins.primary_active",
+			"continuous": false
+		}
+	},
+
+	"sliding": {
+		"type": "origins:swimming",
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:block_collision",
+					"offset_x": 0,
+					"offset_y": -0.65,
+					"offset_z": 0
+				},
+				{
+					"type": "origins:power_active",
+					"power": "*:*_toggle"
+				}
+			]
+		}
+	},
+
+	"name": "Belly Slide",
+	"description": "You are able to enter a swimming state on land to belly slide. Primary Key to toggle the state."
+}
