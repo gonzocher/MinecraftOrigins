@@ -1,0 +1,9 @@
+{
+    "type": "origins:model_color",
+    "red": 0.8,
+    "green": 1,
+    "blue": 0.8,
+    "alpha": 1,
+    "name":"Skin",
+    "description":"Greener"
+}

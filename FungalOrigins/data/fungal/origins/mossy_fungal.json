@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"origins:elytra",
+		"fungal:poison",
+		"fungal:health",
+		"fungal:skin",
+		"fungal:blindmoment"
+	],
+	"icon": "minecraft:mossy_cobblestone",
+	"order": 10,
+	"impact": 2,
+	"name": "Mossy Fungal",
+	"description": "Fungal of moss"
+}
