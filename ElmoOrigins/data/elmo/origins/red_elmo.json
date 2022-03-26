@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"elmo:health",
+		"elmo:weakness"
+	],
+	"icon": "minecraft:red_dye",
+	"order": 10,
+	"impact": 0,
+	"name": "Red Elmo",
+	"description": "Elmo has damage resistance 1 perm, can spawn an iron golem every 5 min, 8 hearts, weakness 1 perm, when under y level 40 he loses resistance"
+}
