@@ -1,0 +1,46 @@
+{
+    "name": "Climb Bamboo",
+    "description": "Able to climb up bamboo shoots",
+	"type": "origins:climbing",
+	"hidden": true,
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:block_in_radius",
+				"block_condition": {
+					"type": "origins:in_tag",
+					"tag": "minecraft:glass"
+				},
+				"radius": 1,
+				"shape": "star",
+				"comparison": ">=",
+				"compare_to": 1
+			},
+			{
+				"type": "origins:or",
+				"conditions": [
+					{
+						"type": "origins:block_collision",
+						"offset_x": 0.1,
+						"offset_y": 0,
+						"offset_z": 0.1
+					},
+					{
+						"type": "origins:block_collision",
+						"offset_x": -0.1,
+						"offset_y": 0,
+						"offset_z": -0.1
+					}
+				]
+			},
+			{
+				"type": "origins:power_active",
+				"power": "rang:holdsecondary"
+			}
+		]
+	}
+}
+
+
+

@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"panda:health",
+		"panda:panda_diet",
+		"panda:bamboo_edible",
+		"panda:climb_bamboo",
+		"panda:slowness"
+	],
+	"icon": "minecraft:panda_spawn_egg",
+	"order": 10,
+	"impact": 0,
+	"name": "Peaceful Panda",
+	"description": "Peaceful Panda has 14 hearts, can rollaway cooldown, can climb bamboo, only eats fish and bamboo, slowness 1 perm"
+}

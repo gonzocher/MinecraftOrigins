@@ -1,0 +1,33 @@
+{
+    "name": "Picky",
+    "description": "You can only eat fish.",
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "inverted": true,
+        "type": "origins:ingredient",
+        "ingredient": [
+            {
+                "item": "minecraft:bamboo"
+            },
+            {
+            	"item": "minecraft:salmon"
+			},
+			{
+            	"item": "minecraft:cod"
+			},
+			{
+            	"item": "minecraft:tropical_fish"
+			},
+			{
+            	"item": "minecraft:cooked_salmon"
+			},
+			{
+            	"item": "minecraft:cooked_cod"
+			},
+			
+			{
+				"item": "origins:orb_of_origin"
+            }
+        ]
+    }
+}
