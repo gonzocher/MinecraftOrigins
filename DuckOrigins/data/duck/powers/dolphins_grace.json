@@ -1,0 +1,21 @@
+{
+    "type": "origins:stacking_status_effect",
+    "name": "Dolphins Grace",
+    "description": "You have grown up around water. Your swimming skills are much more developed than those of others.",
+    "min_stacks": 0,
+    "max_stacks": 10,
+    "duration_per_stack": 10,
+    "effects": [
+        {
+            "effect": "minecraft:dolphins_grace",
+            "amplifier": 0,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        }  
+    ],
+    "condition": {
+        "type": "origins:submerged_in",
+        "fluid": "minecraft:water"
+    }
+}

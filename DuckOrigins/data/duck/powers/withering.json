@@ -1,0 +1,12 @@
+{
+    "name": "Decaying",
+    "description": "Every minute, you will take 1 heart of damage.",
+    "type": "origins:damage_over_time",
+    "interval": 1200,
+    "damage": 2,
+    "damage_source": {
+        "name": "wither",
+        "unblockable": true,
+        "bypasses_armor": true
+    }
+}
