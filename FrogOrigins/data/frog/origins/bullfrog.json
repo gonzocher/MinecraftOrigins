@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"frog:health",
+		"frog:armor",
+		"frog:weakness",
+		"frog:jump_boost"
+	],
+	"icon": "minecraft:green_dye",
+	"order": 10,
+	"impact": 0,
+	"name": "Bullfrog",
+	"description": "Bullfrog has jump boost 1, double jump, frog armor (leather, frost walker boots, aqua affinity on helmet, no projectile damage, 7 hearts, weakness 1"
+}
