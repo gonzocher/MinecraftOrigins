@@ -1,0 +1,17 @@
+{
+	"powers": [
+		"duck:health",
+		"origins:slow_falling",
+		"duck:dolphins_grace",
+		"duck:slowness",
+		"duck:ducks_judgment"
+	],
+	"icon": "minecraft:feather",
+	"order": 10,
+	"impact": 0,
+	"name": "Yellow Duck",
+	"description": "Cute little duck"
+}
+
+
+
