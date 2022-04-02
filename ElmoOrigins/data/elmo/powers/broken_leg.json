@@ -1,0 +1,20 @@
+{
+    "name": "Broken Leg",
+    "description": "Taking damage has a 1 in 4 chance to break your leg, dropping a rabbit's foot.",
+    "condition": {
+        "type": "origins:predicate",
+        "predicate": "technobun:fourth"
+    },
+    "type": "origins:self_action_when_hit",
+    "damage_condition": {
+        "type": "origins:attacker"
+    },
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "summon minecraft:item ~ ~ ~ {Item:{id:\\\"minecraft:rabbit_foot\\\",Count:1}}"
+    },
+    "cooldown": 1,
+    "hud_render": {
+        "should_render": false
+    }
+}
