@@ -1,0 +1,24 @@
+{
+    "name": "Stun Jump",
+    "description": "When you land after stun jump, all entities within 10 block radius are frozen for 5 seconds",
+    "cooldown": 2400,
+    "stun_radius": {
+		"entity_action": {
+			"type": "origins:area_of_effect",
+			"radius": 10,
+			"bientity_action": {
+				"type": "origins:target_action",
+				"action": {
+					"type": "origins:damage",
+					"amount": 2,
+					"source": {
+						"name": "magic.player"
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
